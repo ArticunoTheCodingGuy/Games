@@ -1,0 +1,31 @@
+addCharacter("RebelPilot");
+setDroid("R2-D2");
+setBackground("random");
+setMap("random");
+setDroidSpeed("fast");
+function whenLeft() {
+  goLeft();
+}
+function whenRight() {
+  goRight();
+}
+function whenUp () {
+  goUp();
+}
+function whenDown (){
+goDown();
+}
+function whenGetStormtrooper() {
+  endGame("lose");
+  playSound("R2-D2sound2");
+}
+function whenGetRebelPilot() {
+  addPoints(1);
+  playSound("R2-D2sound1");
+  addCharacter("Stormtrooper");
+  addCharacter("RebelPilot");
+  addCharacter("RebelPilot");
+}
+
+  
+
