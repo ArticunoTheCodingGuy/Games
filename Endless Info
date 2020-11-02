@@ -1,3 +1,4 @@
+  playSound("R2-D2sound1");
 addCharacter("RebelPilot");
 setDroid("R2-D2");
 setBackground("random");
