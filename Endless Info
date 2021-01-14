@@ -1,4 +1,4 @@
-// READ MY COMMENT BELLOW ON HOW TO USE THIS:
+// READ THE README TO FIND OUT HOW TO USE THIS CODE ( CODE.ORG SW ):
 addCharacter("RebelPilot");
 setDroid("R2-D2");
 setBackground("random");
