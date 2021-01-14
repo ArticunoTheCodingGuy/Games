@@ -1,3 +1,4 @@
+// READ MY COMMENT BELLOW ON HOW TO USE THIS:
 addCharacter("RebelPilot");
 setDroid("R2-D2");
 setBackground("random");
